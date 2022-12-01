@@ -1,0 +1,37 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "flower.moc3",
+		"Textures": [
+			"flower.2048/texture_00.png"
+		],
+		"DisplayInfo": "flower.cdi3.json",
+		"Motions": {
+			"Title": [
+				{
+					"File": "breath.motion3.json"
+				}
+			],
+			"Idle": [
+				{
+					"File": "taiki.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
